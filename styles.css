@@ -16,10 +16,11 @@ body{
 
 .content {
     display: grid;
-    grid-template-columns: minmax(400px, 800px);
+    grid-template-columns: minmax(350px, 800px);
     grid-template-rows: 70px 70px auto;
     justify-items: center;
-    min-height: 400px;
+    max-height: 600px;
+    height: 100vh;
     border: 2px solid var(--opacity-color);
     border-radius: 20px;
     gap: 10px;
